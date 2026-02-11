@@ -5,6 +5,4 @@ $db = new Database();
 $conn = $db->connect();
 
 echo "Conexion a PostgreSQL exitosa";
-echo "<br><br>";
-echo "<a href='../views/login.php'>Ir al Login</a>";
 ?>
